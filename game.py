@@ -107,3 +107,30 @@ def update_game_state():
 # Main game loop
 def main():
     running = True
+    while running:
+        # Handle events
+        handle_events()
+
+        # Clear the screen
+        window.fill(WHITE)
+
+        # Draw doors
+        draw_doors()
+
+        # Update the game state
+        update_game_state()
+
+        # Update the display
+        pygame.display.update()
+
+        # Check for game exit
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+
+    pygame.quit()
+    quit()
+
+# Run the game
+if __name__ == "__main__":
+    main()
