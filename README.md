@@ -12,6 +12,8 @@ The question is: Should you switch doors or stick with your original choice?
 ### The Solution
 Surprisingly, switching doors gives you a higher probability of winning the car. The probability of winning the car by switching is 2/3, while the probability of winning by sticking with your original choice is 1/3.
 
+![](https://github.com/Sieep-Coding/monte-hall-problem-python/blob/main/images/bar.png)
+
 #### Here's why:
 
 - Initially, there are three doors, and the car is equally likely to be behind any one of them (1/3 probability for each door).
@@ -23,3 +25,5 @@ Surprisingly, switching doors gives you a higher probability of winning the car.
 - This doesn't change the probability of the car being behind your initial choice (Door 1) or the remaining unopened door (Door 2).
 
 - Since there's a 2/3 chance that the car is behind the remaining unopened door (Door 2), switching doors gives you a 2/3 probability of winning the car.
+
+![](https://github.com/Sieep-Coding/monte-hall-problem-python/blob/main/images/pie.png)
